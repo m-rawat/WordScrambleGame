@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    line-height: 10vh;
+    background-color:rgb(62, 183, 231);
+}
+h1{
+    color: rgb(13, 110, 148);
+    font-size: 35px;
+    text-align: center;
+    letter-spacing: 12px;
+    font-family: 'Carter One', cursive;
+    text-shadow: 0 1px 0 rgb(13, 110, 148),
+                0 2px 0 rgb(13, 110, 148),
+                0 3px 0 rgb(13, 110, 148),
+                0 4px 0 rgb(13, 110, 148),
+                0 30px 5px rgba(0,0,0,0.07) ;
+}
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+    background-color:rgb(98, 196, 235);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.gameArea{
+    width: 80%;
+    height: 400px;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:rgb(27, 175, 233);
+    border-radius: 10px;
+    box-shadow: 0 8px 6px -6px black;
+}
+h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color:black;
+    text-transform: capitalize;
+}
+input{
+    width: 40%;
+    padding: 10px 0;
+    text-align: center;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: whitesmoke;
+    margin: 2rem 0;
+    font-size: 1.1rem;
+}
+.hidden{
+    display: none;
+}
+button{
+    font-size: 1rem;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.btn{
+    font-weight: 600;
+    padding: .5rem 2rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 0 8px 6px -6px black;
+    letter-spacing: 2px;
+    color: rgb(9, 72, 97);
+}
+.btn:hover,.btn:active,.btn:focus{
+    color:black;
+    background-color:rgb(8, 162, 223);
+}
+
+@media screen and (min-width: 768px) {
+    h1{
+        color: rgb(13, 110, 148);
+        font-size: 35px;
+        text-align: center;
+        font-family: 'Carter One', cursive;
+        text-shadow: 0 1px 0 rgb(13, 110, 148),
+                    0 2px 0 rgb(13, 110, 148),
+                    0 3px 0 rgb(13, 110, 148),
+                    0 4px 0 rgb(13, 110, 148),
+                    0 30px 5px rgba(0,0,0,0.07) ;
+    }
+    .gameArea{
+        width: 50%;
+        height: 400px;
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color:rgb(27, 175, 233);
+        border-radius: 10px;
+        box-shadow: 0 8px 6px -6px black;
+    }
+  }
